@@ -1,0 +1,7 @@
+---
+title: "博弈与社会"
+author: "龙骑羊"
+date: "2024-11-15"
+categories: [news, code, analysis]
+image: "Game.jpg"
+---
