@@ -1,0 +1,13 @@
+---
+title: "知识体系"
+author: "Maverick McQuillan"
+date: "2024-02-28"
+categories: [Knowledge]
+image: "knowledge.jpg"
+---
+
+我想建立一个网页来记录我知识体系构建的过程。
+
+# 数学
+
+- [微积分](https://maverickmcquillan.github.io/Calculus/)
