@@ -11,3 +11,7 @@ image: "knowledge.jpg"
 # 数学
 
 - [微积分](https://maverickmcquillan.github.io/Calculus/)
+
+# 哲学
+
+- [老景心态](https://maverickmcquillan.github.io/LcJk/)
