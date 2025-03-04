@@ -15,3 +15,7 @@ image: "knowledge.jpg"
 # 哲学
 
 - [老景心态](https://maverickmcquillan.github.io/LcJk/)
+
+# 经济学
+
+- [宏观经济学](https://maverickmcquillan.github.io/Macroeconomy/)
