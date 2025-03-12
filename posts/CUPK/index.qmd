@@ -1,0 +1,18 @@
+---
+title: "采访了十位大学校友后，我的感受"
+author: "Maverick McQuillan"
+date: "2025-03-12"
+categories: ["人际关系", "大学"]
+---
+
+# Introduction
+
+Write your introduction here.
+
+# Main Content
+
+Write the main content of your post here.
+
+# Conclusion
+
+Write your conclusion here.

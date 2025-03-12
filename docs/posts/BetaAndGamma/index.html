@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Maverick Mcquillan">
+<meta name="dcterms.date" content="2025-03-12">
 
-<title>Blog</title>
+<title>Beta函数与Gamma函数 – Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3827a8487ac4149603024367d5dc113d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3827a8487ac4149603024367d5dc113d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -128,17 +99,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blog</span>
     </a>
   </div>
@@ -149,7 +120,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,212 +143,89 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Beta函数与Gamma函数</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Math</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Maverick Mcquillan </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 12, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RW5nbGlzaA==">English <span class="quarto-category-count">(2)</span></div><div class="category" data-category="S25vd2xlZGdl">Knowledge <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWF0aA==">Math <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU0JUJBJUJBJUU5JTk5JTg1JUU1JTg1JUIzJUU3JUIzJUJC">人际关系 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUE0JUE3JUU1JUFEJUE2">大学 <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="beta函数与gamma函数" class="level1">
+<h1>Beta函数与Gamma函数</h1>
+<p>Beta 函数和 Gamma函数也被称为 <strong>Euler 第一积分和Euler 第二积分</strong>，这里的积分是指<strong>含参变量反常积分</strong>。别看含参变量反常积分是以积分命名，但其本质上是一个函数，我把 Beta 函数和 Gamma函数的数学表达式写出来，大家就明白了。</p>
+<p><span class="math display">\[\begin{align}
+
+B(p,q)&amp;=\int_{0}^{1}x^{p-1}(1-x)^{q-1}dx \\
+\Gamma(s)&amp;=\int_{0}^{+\infty}x^{s-1}e^{-x}dx
+
+\end{align}\]</span></p>
+<p>从数学表达式中，我们可以看出来，Beta 函数是一个二元函数，Gamma 函数是一个一元函数。那这两个函数能有什么用呢？我认为大概有以下几点</p>
+</section>
+<section id="beta函数的对称性" class="level1">
+<h1>Beta函数的对称性</h1>
+<p>作为一个函数，我们要研究其的连续性、可导性、可积性等特点，在这里我主要说一些我感兴趣的关于 Beta 函数的性质。</p>
+<p>Beta 函数和 Gamma函数的特性结论很多都是通过<strong>变量代换</strong>的方法得出来的，其中 Beta 函数的<strong>对称性</strong>也不例外，通过更换两个自变量的位置得出来的函数值一样。</p>
+<p><span class="math display">\[
+B(p,q)=B(q,p)
+\]</span></p>
+</section>
+<section id="gamma函数可以作为阶乘的具象表达" class="level1">
+<h1>Gamma函数可以作为阶乘的具象表达</h1>
+<p>我们都知道阶乘是怎么来的，比如说我们定义一个函数能展示阶乘的结果：</p>
+<p><span class="math display">\[
+NF(n+1)=n!
+\]</span></p>
+</section>
+<section id="beta函数可以作为符号函数的具象表达" class="level1">
+<h1>Beta函数可以作为符号函数的具象表达</h1>
+<p>我们知道符号函数是一个分段函数，如下表示</p>
+<p><span class="math display">\[
+\operatorname{sgn}(x) =
+\begin{cases}
+-1, &amp; x&lt;0 \\
+0, &amp; x=0 \\
+1, &amp; x&gt;0
+\end{cases}
+\]</span></p>
+<p>通过分段函数的形式我们可以知道函数的图像，但是不能了解其具体的构造。</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWF0aA==" data-listing-date-sort="1741708800000" data-listing-file-modified-sort="1741786583247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/BetaAndGamma/index.html" class="no-external"></a></p><a href="./posts/BetaAndGamma/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/BetaAndGamma/BetaandGamma.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/BetaAndGamma/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/BetaAndGamma/index.html" class="no-external">Beta函数与Gamma函数</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/BetaAndGamma/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0aA=='); return false;">
-Math
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/BetaAndGamma/index.html" class="no-external">Beta 函数和 Gamma函数也被称为 <strong>Euler 第一积分和Euler 第二积分</strong>，这里的积分是指<strong>含参变量反常积分</strong>。别看含参变量反常积分是以积分命名，但其本质上是一个函数，我把 Beta 函数和 Gamma函数的数学表达式写出来，大家就明白了。</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/BetaAndGamma/index.html" class="no-external">
-<div class="listing-date">
-Mar 12, 2025
-</div>
-<div class="listing-author">
-Maverick Mcquillan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="JUU0JUJBJUJBJUU5JTk5JTg1JUU1JTg1JUIzJUU3JUIzJUJCJTJDJUU1JUE0JUE3JUU1JUFEJUE2" data-listing-date-sort="1741708800000" data-listing-file-modified-sort="1741786211218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<div class="thumbnail">
-<p><a href="./posts/CUPK/index.html" class="no-external"></a></p><a href="./posts/CUPK/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/CUPK/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/CUPK/index.html" class="no-external">采访了十位大学校友后，我的感受</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/CUPK/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('JUU0JUJBJUJBJUU5JTk5JTg1JUU1JTg1JUIzJUU3JUIzJUJC'); return false;">
-人际关系
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('JUU1JUE0JUE3JUU1JUFEJUE2'); return false;">
-大学
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/CUPK/index.html" class="no-external">Write your introduction here.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/CUPK/index.html" class="no-external">
-<div class="listing-date">
-Mar 12, 2025
-</div>
-<div class="listing-author">
-Maverick McQuillan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RW5nbGlzaA==" data-listing-date-sort="1740758400000" data-listing-file-modified-sort="1741712140118" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<div class="thumbnail">
-<p><a href="./posts/English2/index.html" class="no-external"></a></p><a href="./posts/English2/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/English1/Eng.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/English2/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/English2/index.html" class="no-external">我的英语习得之路（二）：正确的英语习得方法</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/English2/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RW5nbGlzaA=='); return false;">
-English
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/English2/index.html" class="no-external">我在动笔写作的时候，时间已经进入到了 2025 年的三月份，这个月我大概要吃 60-90顿饭，每顿饭所花费时间大概是 20 分钟，一共是 20-30个小时。如果把吃饭换成别的，比如学数学， 背诵文言文，学一门技术，你会发现这并不容易，如果坚持 20…<span style="color:(100,100,256);font-weight:bold"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/English2/index.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2025
-</div>
-<div class="listing-author">
-Maverick McQuillan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="RW5nbGlzaA==" data-listing-date-sort="1709049600000" data-listing-file-modified-sort="1740682871790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail">
-<p><a href="./posts/English1/index.html" class="no-external"></a></p><a href="./posts/English1/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/English1/Eng.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/English1/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/English1/index.html" class="no-external">我的英语习得之路（一）：英语不是学出来的</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/English1/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RW5nbGlzaA=='); return false;">
-English
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/English1/index.html" class="no-external">我是从 2010 年小学三年级的时候就开始“学习”英语，但是直到 2021 年年末我才正式进入“习得英语”阶段。粗略估算，<strong>2022 -2023年我的英语词汇量增长相当于之前十一年的词汇量增长总和</strong>，<strong>并且我有信心未来五年内我的听说读写四项英文能力都能达到美国 native 的水平。</strong>我最近一直想写一篇文章来表述自己的英文习得经历，但是只有真正开始写作的…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/English1/index.html" class="no-external">
-<div class="listing-date">
-Feb 28, 2024
-</div>
-<div class="listing-author">
-Maverick McQuillan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="S25vd2xlZGdl" data-listing-date-sort="1709049600000" data-listing-file-modified-sort="1741099669506" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<div class="thumbnail">
-<p><a href="./posts/Knowledge/index.html" class="no-external"></a></p><a href="./posts/Knowledge/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Knowledge/knowledge.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Knowledge/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Knowledge/index.html" class="no-external">知识体系</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Knowledge/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('S25vd2xlZGdl'); return false;">
-Knowledge
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Knowledge/index.html" class="no-external">我想建立一个网页来记录我知识体系构建的过程。</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Knowledge/index.html" class="no-external">
-<div class="listing-date">
-Feb 28, 2024
-</div>
-<div class="listing-author">
-Maverick McQuillan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
