@@ -208,6 +208,24 @@ B(p,q)=B(q,p)
 <p><span class="math display">\[
 NF(n+1)=n!
 \]</span></p>
+<p>如果用计算机来表达这个函数来讲的话，是非常容易的。但是如果我想换一种方式，通过具体的函数，比如三角函数，指数函数和幂函数等形式来表达，那么仅仅通过上面的函数形式是看不出来的，这里 恰巧由于 Gamma函数的递推性，且 <span class="math inline">\(\displaystyle \Gamma(1)=1\)</span>, 则推出</p>
+<p><span class="math display">\[
+\Gamma(n+1)=n!
+\]</span></p>
+<p>这里面其实不仅仅是正整数，带别的分数、负数和无理数都可以。总体来说，Gamma 函数不仅可以作为阶乘的具象表达，而且可以更加宽阔得带入其他数。</p>
+</section>
+<section id="beta-函数和-gamma函数可以用来解决积分计算问题" class="level1">
+<h1>Beta 函数和 Gamma函数可以用来解决积分计算问题</h1>
+<p>其实我学习 Beta 函数和 Gamma函数以及含参变量积分这部分内容最大的体会是<strong>函数不仅只有一种形式，它可以有多种形式</strong>。同一个函数可以用含参变量反常积分、函数项级数、正常的三角函数、指数函数、幂函数等形式来表示。其中是如何从一个形式转变成另外一个形式呢？主要通过<strong>变量代换</strong>的方法，下面我给大家展示出 Beta 函数和 Gamma 函数的其他形式。</p>
+<p><span class="math display">\[\begin{align}
+B(p,q) &amp;= 2 \int_{0}^{\frac{\pi}{2}}\cos^{2p-1}\phi\sin^{2q-1}\phi d\phi \\
+       &amp;= \int_{0}^{1}\frac{t^{p-1}+t^{q-1}}{(1+t)^{p+q}}dt
+\end{align}\]</span></p>
+<p><span class="math display">\[\begin{align}
+\Gamma(s)&amp;=2\int_{0}^{+\infty}t^{2s-1}e^{-t^{2}}dt.  \\
+         &amp;= \alpha^{s}\int_{0}^{+\infty}t^{s-1}e^{-\alpha t}dt.  (其中 \alpha &gt;0)
+\end{align}\]</span></p>
+<p>这里举一个例子，比如让我们计算 <span class="math inline">\(\displaystyle I = \int_{0}^{+\infty}x^{2n}e^{-x^{2}}dx\)</span>,这时我们就带入 Gamma 函数的表达式，就能得到 <span class="math inline">\(\displaystyle I=\frac{2n-1}{2^{2}}\Gamma(n-1+\frac{1}{2})\)</span>,在此基础上还可以用递推公式得到 <span class="math inline">\(\displaystyle I = \frac{(2n-1)!!}{2^{n+1}}\Gamma(\frac{1}{2})=\frac{(2n-1)!!}{2^{n+1}}\sqrt{\pi}.\)</span></p>
 </section>
 <section id="beta函数可以作为符号函数的具象表达" class="level1">
 <h1>Beta函数可以作为符号函数的具象表达</h1>
