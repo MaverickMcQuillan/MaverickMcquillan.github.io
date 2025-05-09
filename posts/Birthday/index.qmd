@@ -2,7 +2,7 @@
 title: "留给我的时间不多了"
 author: "Maverick McQuillan"
 date: "2025-05-09"
-categories: [‘Reading‘，‘Life’，‘Summary’]
+categories: [‘Reading‘,‘Life’,‘Summary’]
 image: "Birthday.jpg"
 ---
 我是 2000 年出生，5 月 9 日是我的生日，今天我 25 岁了。
