@@ -1,5 +1,5 @@
 ---
-title: "2025年7月第1周"
+title: "2025年7月第1周记录"
 author: "Maverick Mcquillan"
 date: "2025-07-02"
 categories: [Journal] 
@@ -9,13 +9,65 @@ image: "week.jpg"
 
 # 任务进程
 
-|日期|运动|Hotel Vacabulary 英语口语|English Pod 英语听力|《金瓶梅》阅读|MDN编程|起床时间|M|消费|
-|--|--|--|--|--|--|--|--|--|
-|2025-06-30|
-|2025-07-01|
-|2025-07-02||58:23||36:28||2:00-11:08|
+```{=html}
 
-: Fruit prices { .sm .bordered .responsive .hover}
+<style>
+table td:first-child {
+  width: 170px; 
+}
+</style>
+
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>日期</th>
+      <th>运动</th>
+      <th>Hotel Vacabulary 英语口语</th>
+      <th>English Pod 英语听力</th>
+      <th>《金瓶梅》阅读</th>
+      <th>MDN编程</th>
+      <th>M</th>
+      <th>睡眠时间</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-06-30 星期一</td>
+      <td class="bg-warning">None</td>
+      <td class="bg-danger">Too low</td>
+      <td>1天</td>
+      <td></td>
+      <td></td>
+      <td class="bg-success">0</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>2025-07-01 星期二</td>
+      <td class="bg-warning">None</td>
+      <td>Good</td>
+      <td>2天</td>
+      <td></td>
+      <td></td>
+      <td class="bg-success">0</td>
+      <td>None</td>
+   </tr>
+    <tr>
+      <td>2025-07-02 星期三</td>
+      <td class="bg-danger">0</td>
+      <td class="bg-success">58:23</td>
+      <td>2天</td>
+      <td class="bg-success">36:28</td>
+      <td></td>
+      <td></td>
+      <td class="bg-danger">2:00-11:08</td>
+    </tr>
+  </tbody>
+</table>
+
+```
+
+
+
 
 
 # 小成就
