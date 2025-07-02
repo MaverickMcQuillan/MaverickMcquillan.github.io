@@ -33,21 +33,21 @@ table td:first-child {
   <tbody>
     <tr>
       <td>2025-06-30 星期一</td>
-      <td class="bg-warning">None</td>
-      <td class="bg-danger">Too low</td>
+      <td class="bg-danger">None</td>
+      <td class="bg-success">32:00</td>
       <td>1天</td>
-      <td></td>
-      <td></td>
+      <td class="bg-success">36:54</td>
+      <td class="bg-success">1:07:34</td>
       <td class="bg-success">0</td>
       <td>None</td>
     </tr>
     <tr>
       <td>2025-07-01 星期二</td>
-      <td class="bg-warning">None</td>
-      <td>Good</td>
+      <td class="bg-danger">None</td>
+      <td class="bg-success">30:00</td>
       <td>2天</td>
-      <td></td>
-      <td></td>
+      <td class="bg-success">39:24</td>
+      <td class="bg-success">1:05:28</td>
       <td class="bg-success">0</td>
       <td>None</td>
    </tr>
@@ -75,6 +75,10 @@ table td:first-child {
 我在2025年07月01日把自己写的一个index.html文件挂到Gihub Pages上面去，任何人都可以通过<a href="https://maverickmcquillan.github.io/testhtml/">网址</a>来访问我自己写的HTML文件的内容。（**这是我第一次没用任何模板来去生成网页，而是凭借着我对HTML知识的理解自己生成**）
 
 我在2025年07月02日把我在 MDN 中的一个<a href="https://maverickmcquillan.github.io/testhtml/assets%202/index.html">设计网页内容的任务</a>跟 Github Pages 上的网页联合索引起来了，这就意味着每次我通过学习 MDN 中的 HTML、CSS、JavaScript 上的内容都可以通过网站进行展示。无论是自己还是他人都能欣赏我的曾经学习前端路上的成果。
+
+2025年 7 月 2 日我开始进行自己的数据情况总结，把其设计构造成网页保存下来。
+
+我能用 HTML 语法生成表格在网页上。
 
 # 我的观察
 
