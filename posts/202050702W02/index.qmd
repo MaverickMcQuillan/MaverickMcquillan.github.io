@@ -54,7 +54,7 @@ table td:first-child {
 
 看完了《金瓶梅》，一共一百回合，花了我大约 43 个小时，这是我这辈子读过最好的书。
 
-<h1>我的观察</h1>
+<h1>My Observation</h1>
 
 为了防止自己花钱大手大脚，我认为自己有必要对自己每日的支出有一个记录。
 
@@ -106,8 +106,8 @@ If you want evaluate that your English is professional, you have to talk in Engl
 Based on what I think above, I think I should spend at least 0.5 hour practicing my spoken English which not only improve my spoken skill but also listening and reading. I should also try my best to write in English over Chinese. The more I practice in Speaking and Writing, the better I excel in them.
 
 ::: {.callout-note}
-
-<span style="color: blue">When it comes to English</span>, if you want <span style="color: red">to </span> evaluate <span style="color: red">whether</span> your English is professional, you have to speak it fluently <span style="color: red">like a native</span> and write <span style="color: blue">high-quality</span> English articles. However, in China, we <span style="color: blue">tend to</span> focus only on reading, which is <span style="color: red">a narrow method to master English </span>.
+# The AI-revised version 
+<span style="color: blue">When it comes to English</span>, if you want <span style="color: red">to </span> evaluate <span style="color: red">whether</span> your English is <span  style="color:red">proficient</span>, you have to speak it fluently <span style="color: red">like a native</span> and write <span style="color: blue">high-quality</span> English articles. However, in China, we <span style="color: blue">tend to</span> focus only on reading, which is <span style="color: red">a narrow method to master English </span>.
 
 Based on <span style="color: green">this observation</span>, I believe I should spend at least 30 minutes <span style="color: red">a day</span> practicing spoken English, which <span style="color: red">will not </span>only improve my speaking skills, but also <span style="color:blue">help with </span>listening and reading. I should also try my best to write in English <span style="color:red">rather than</span> Chinese. The more I practice speaking and writing, the better <span style="color:red">I will become at both</span>.
 
