@@ -1,5 +1,5 @@
 ---
-title: "2025年7月第2周记录"
+title: "Journal Entry: Week 2 of July 2025"
 author: "Maverick Mcquillan"
 date: "2025-07-08"
 categories: [Journal] 
@@ -51,6 +51,8 @@ table td:first-child {
 <h1>小成就</h1>
 
 我在 2025 年 07 月 08 日跟全州印象、GreenCode 和骆驼餐服的创始人葛琪在一个房间内和其他四个人一起谈论了四个多小时，我从中打开了自己的视角，见了世面。
+
+看完了《金瓶梅》，一共一百回合，花了我大约 43 个小时，这是我这辈子读过最好的书。
 
 <h1>我的观察</h1>
 
