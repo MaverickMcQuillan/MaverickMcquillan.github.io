@@ -3,7 +3,8 @@ title: "Journal Entry: Week 2 of July 2025"
 author: "Maverick Mcquillan"
 date: "2025-07-08"
 categories: [Journal] 
-image: "week.jpg" 
+image: "week.jpg"
+draft: true 
 ---
 
 <h1>任务进程</h1>

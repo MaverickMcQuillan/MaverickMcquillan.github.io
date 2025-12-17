@@ -3,7 +3,8 @@ title: "2025年7月第1周记录"
 author: "Maverick Mcquillan"
 date: "2025-07-02"
 categories: [Journal] 
-image: "week.jpg" 
+image: "week.jpg"
+draft: true 
 ---
 
 

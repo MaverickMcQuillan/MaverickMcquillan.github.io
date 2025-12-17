@@ -1,0 +1,14 @@
+---
+title: "ChatGPT5"
+author: "Maverick Mcquillan"
+date: "2025-08-08"
+categories: [Math] 
+image: "" 
+draft: true
+---
+
+
+# ChatGPT5横空出世
+
+我从 2025 年 08 月 08 日这天的凌晨就开始看 ChatGPT5 的发布会，我整体的感受是比较激动的。通过发布会页面的展示，我感觉 AI 的出现可以大大加快个人的学习效率，
+以前在学校师生比例可能是 1：10，现在有了 ChatGPT5，实际上每个人都有 100 个极其优秀的专家陪在你身边，让你免费不限次数咨询。

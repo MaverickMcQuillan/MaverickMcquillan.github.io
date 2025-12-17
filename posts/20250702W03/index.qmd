@@ -3,7 +3,8 @@ title: "Journal Entry: Week 3 of July 2025"
 author: "Maverick Mcquillan"
 date: "2025-07-18"
 categories: [Journal] 
-image: "week.jpg" 
+image: "week.jpg"
+draft: true 
 ---
 
 ```{=html}
@@ -31,4 +32,4 @@ As the south cities of China, Shanghai and Hangzhou are not like Chengdu and Cho
 
 AI version: 
 
-<span style="color:green">As southern cities of China, Shanghai and Hangzhou are not like Chengdu and Chongqing, which are very hot, because there are many rainy days in these two cities during summer, so they often feel cool.</span>
+<span style="color:green">As southern cities of China, Shanghai and Hangzhou are not like Chengdu and Chongqing, which are very hot, because there are many rainy days in these two cities during summer, so people often feel cool.</span>
